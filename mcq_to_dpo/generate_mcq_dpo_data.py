@@ -7,8 +7,8 @@ from pylatexenc.latex2text import LatexNodes2Text
 
 # Set API base and key
 gpt_wrapper.api_base = "http://mnlp-backend-938795011.eu-central-1.elb.amazonaws.com"
-# gpt_wrapper.api_key = "dd39a60d-11ad-4f8b-9057-53834d1a35ff"
-gpt_wrapper.api_key = "4a44bf6b-e819-4313-b462-877e79c4d4ca"
+# gpt_wrapper.api_key = "..."
+gpt_wrapper.api_key = "..."
 
 def render_latex_to_text(latex_str):
     return LatexNodes2Text().latex_to_text(latex_str)

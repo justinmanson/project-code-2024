@@ -8,7 +8,7 @@ from openai import OpenAI
 
 # Set API base and key
 gpt_wrapper.api_base = "http://mnlp-backend-938795011.eu-central-1.elb.amazonaws.com"
-gpt_wrapper.api_key = "dd39a60d-11ad-4f8b-9057-53834d1a35ff"
+gpt_wrapper.api_key = "..."
 
 def render_latex_to_text(latex_str):
     return LatexNodes2Text().latex_to_text(latex_str)
@@ -133,7 +133,7 @@ def main(api_key, organisation, start_index=0):
 
 
 if __name__ == "__main__":
-    api_key = "sk-proj-BxTGLLTJNgSAwJKDS9TgT3BlbkFJyefB5RoW1hYxmAmfEcP8"
-    organisation = "org-bIuqBukOUHLVFAdhb1lVcMC4"
+    api_key = "..."
+    organisation = "..."
 
     main(api_key, organisation)

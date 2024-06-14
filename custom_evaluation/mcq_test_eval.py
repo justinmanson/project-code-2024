@@ -6,7 +6,7 @@ from collections import defaultdict
 
 # Set API base and key
 gpt_wrapper.api_base = "http://mnlp-backend-938795011.eu-central-1.elb.amazonaws.com"
-gpt_wrapper.api_key = "4a44bf6b-e819-4313-b462-877e79c4d4ca"
+gpt_wrapper.api_key = "..."
 
 # Constant to determine whether to generate answers
 GENERATE_ANSWERS = False
